@@ -76,11 +76,11 @@ echo
 case "$1" in
 "start") start ;;
 "stop") stop ;;
-"reload") stop; start ;;
+"restart") stop; start ;;
 *)
 
 echo
-echo "Use parametros start|stop|reload";
+echo "Use parametros start|stop|restrat";
 echo
 ;;
 esac
